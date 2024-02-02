@@ -1,0 +1,4 @@
+Next js 
+
+1)cd <file name>
+2)npm run dev -->runing the next.js file
