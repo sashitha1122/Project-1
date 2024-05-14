@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
         </div>
          <div className="relative">
-           <Image src={'/pizza1.jpeg'} layout={'fill'} 
+           <Image src={'/PizzaN.jpeg'} layout={'fill'} 
            objectFit={'contain'} alt={''} />
          </div>
         
