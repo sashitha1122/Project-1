@@ -1,15 +1,16 @@
  import Image from "next/image";
+import MenuItem from "./menu/MenuItem";
 
 export default function HomeMenu() {
     return (
         <section className="">
            <div classname="absolute left-0 right-0 w-full justify-start overflow-x-hidden">
-                <div className=" absolute text-left">
-                  <Image src={'/sallad1.jpg'} width={109} height={189} 
+                <div className=" absolute   text-left">
+                  <Image src={'/sallad1.jpg'} width={200} height={250} 
                    alt={'sallad'} /> 
                 </div>
-                <div className=" absolute right-[180px] z-10">
-                  <Image src={'/sallad1.jpg'} width={107} height={195} 
+                <div className=" absolute right-[160px] z-10">
+                  <Image src={'/sallad1.jpg'} width={200} height={250} 
                   alt={'sallad'} /> 
                 </div>
            </div>
@@ -21,6 +22,14 @@ export default function HomeMenu() {
               <h2 className="text-primary font-bold text-4xl
               italic">Menu</h2>
           </div> 
+          <div className=" mt-40 grid grid-cols-3 gap-12">
+             <MenuItem />
+             <MenuItem />
+             <MenuItem />
+             <MenuItem />
+             <MenuItem />
+             <MenuItem />
+          </div>
         </section>
     );
 }
